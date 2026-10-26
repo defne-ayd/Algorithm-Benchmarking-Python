@@ -1,5 +1,11 @@
-# Algorithm-Benchmarking-Python
-Algorithm Performance & Benchmarking in Python
-This project measures the execution time and validation accuracy of mathematical algorithms in Python.
-Key Concepts: Algorithmic Complexity, Benchmarking (timeit module), Custom Unit Testing.
-Details: Evaluates the efficiency of a brute-force prime number search against increasingly large integers (up to 10 digits) to observe execution time scaling.
+# Algorithm Performance & Benchmarking
+
+This project evaluates the performance, execution time, and accuracy of a mathematical algorithm in Python. It includes custom-built unit testing and benchmarking functions to measure how the algorithm scales with increasingly large datasets.
+
+## Key Features
+* **Algorithmic Benchmarking:** Uses the `timeit` module to track and measure the execution time of a prime number verification algorithm against integer inputs up to 10 digits long.
+* **Custom Unit Testing:** Implements a localized testing function to validate algorithmic accuracy against predetermined boolean test cases.
+* **Complexity Observation:** Demonstrates how execution time scales with input size, a foundational concept for algorithm optimization and data science.
+
+## Technologies
+* Python (timeit module, algorithmic logic, unit testing)
